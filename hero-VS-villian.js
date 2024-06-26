@@ -1,4 +1,3 @@
-
 //Fun hero vs villian fight : 
 
 import {randomSuperhero} from "superheroes";
@@ -33,14 +32,15 @@ setTimeout(function()
 setTimeout(function()
 {
     console.log("\n\nThey are fighting.... \n\n");
+    console.log(".........*kicks*.........*punches*.......\n\n");
 },5000);
 
 
 setTimeout(function(){
 var n = Math.floor(Math.random()*2);
 if(n===0)
-    console.log("\nHero " + hero +" wins the fight with a clash of " + hero + " and " + villian + "\n\n");
+    console.log("\nHero " + hero +" wins the Clash of " + hero + " and " + villian + "\n\n");
 else 
-    console.log("\nVillain "+villian+ " wins the fight with a clash of " + hero + " and " + villian+ "\n\n");
+    console.log("\nVillain "+villian+ " wins the Clash of " + hero + " and " + villian+ "\n\n");
 
 },8000);
